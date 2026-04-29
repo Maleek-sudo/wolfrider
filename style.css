@@ -1,15 +1,37 @@
-body {
+body{
     margin: 0;
     padding: 0;
 }
-/* header a {
-    text-decoration: line-through;
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-size: 2em;
+    font-weight: 700;
+    color: hsl(300, 94%, 39%);
+}
+
+nav{
+    display: flex;
+    gap: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: rgb(46, 43, 226);
+}
+
+h1{
     color: red;
-} */
-h1 {
-    background-color: aqua;
-    text-decoration: underline;
-    text-transform: uppercase;
+    text-align: center;
+    margin-top: 10px;
 }
 
 p {
